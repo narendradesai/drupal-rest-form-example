@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - axe_site_api
+    - serialization
+    - user
+id: page_site_api
+plugin_id: page_site_api
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

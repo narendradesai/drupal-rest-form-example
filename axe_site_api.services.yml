@@ -1,0 +1,5 @@
+services:
+  axe_site_api.event_route_subscriber:
+    class: Drupal\axe_site_api\Routing\SiteInfoRouteSubscriber
+    tags:
+      - { name: event_subscriber }
